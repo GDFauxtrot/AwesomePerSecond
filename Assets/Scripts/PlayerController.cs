@@ -32,11 +32,13 @@ public class PlayerController : MonoBehaviour {
     public float groundPoundForce;
     public float groundPoundAirLift;
     public float groundPoundRadius;
+    public GameObject groundPoundEffectPrefab;
     bool groundPounding;
 
     [Header("Misc")]
     public Rigidbody rb;
     public SphereCollider sphere;
+    
     public bool drawDebug;
 
     Collider[] overlapCols; // using nonalloc
@@ -84,8 +86,8 @@ public class PlayerController : MonoBehaviour {
         Vector3 forceRight = new Vector3(camera.transform.right.x, 0, camera.transform.right.z);
 
         if (drawDebug) {
-            Debug.DrawRay(transform.position, forceForward, Color.red);
-            Debug.DrawRay(transform.position, forceRight, Color.blue);
+            Debug.DrawRay(transform.position, forceForward, Color.blue);
+            Debug.DrawRay(transform.position, forceRight, Color.red);
         }
 
         // Apply rotation force to player
@@ -141,6 +143,9 @@ public class PlayerController : MonoBehaviour {
         if (grounded && groundPounding) {
             groundPounding = false;
 
+            GameObject effect = Instantiate(groundPoundEffectPrefab, transform.position, Quaternion.identity);
+            effect.GetComponent<GroundPoundEffect>().PlayEffect();
+
             Collider[] poundedObjects = Physics.OverlapSphere(transform.position, groundPoundRadius, 1 << LayerMask.NameToLayer("GroundPoundable"));
             foreach (Collider obj in poundedObjects) {
 
@@ -157,7 +162,6 @@ public class PlayerController : MonoBehaviour {
                     Rigidbody objRB = obj.gameObject.GetComponent<Rigidbody>();
                     if (objRB) {
                         float v = Mathf.Max(-rb.velocity.y, groundPoundSpeed); // sometimes it no fast
-
                         objRB.AddExplosionForce(v * groundPoundForce, transform.position, groundPoundRadius, groundPoundAirLift);
                     } else {
                         Debug.LogWarning("Ground poundable object '" + obj.name + "' has no rigidbody!");
