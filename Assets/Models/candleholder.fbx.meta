@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 08f2f29ee63e8ca429beb12157ba2532
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: M_Tavern_inside_candlestick_01_cell
+    100004: M_Tavern_inside_candlestick_01_cell.001
+    100006: M_Tavern_inside_candlestick_01_cell.002
+    100008: M_Tavern_inside_candlestick_01_cell.003
+    100010: M_Tavern_inside_candlestick_01_cell.004
+    100012: M_Tavern_inside_candlestick_01_cell.005
+    100014: M_Tavern_inside_candlestick_01_cell.006
+    100016: M_Tavern_inside_candlestick_01_cell.007
+    100018: M_Tavern_inside_candlestick_01_cell.008
+    100020: M_Tavern_inside_candlestick_01_cell.009
+    100022: M_Tavern_inside_candlestick_01_cell.010
+    100024: M_Tavern_inside_candlestick_01_cell.011
+    100026: M_Tavern_inside_candlestick_01_cell.012
+    100028: M_Tavern_inside_candlestick_01_cell.013
+    100030: M_Tavern_inside_candlestick_01_cell.014
+    100032: M_Tavern_inside_candlestick_01_cell.015
+    100034: M_Tavern_inside_candlestick_01_cell.016
+    100036: M_Tavern_inside_candlestick_01_cell.017
+    400000: //RootNode
+    400002: M_Tavern_inside_candlestick_01_cell
+    400004: M_Tavern_inside_candlestick_01_cell.001
+    400006: M_Tavern_inside_candlestick_01_cell.002
+    400008: M_Tavern_inside_candlestick_01_cell.003
+    400010: M_Tavern_inside_candlestick_01_cell.004
+    400012: M_Tavern_inside_candlestick_01_cell.005
+    400014: M_Tavern_inside_candlestick_01_cell.006
+    400016: M_Tavern_inside_candlestick_01_cell.007
+    400018: M_Tavern_inside_candlestick_01_cell.008
+    400020: M_Tavern_inside_candlestick_01_cell.009
+    400022: M_Tavern_inside_candlestick_01_cell.010
+    400024: M_Tavern_inside_candlestick_01_cell.011
+    400026: M_Tavern_inside_candlestick_01_cell.012
+    400028: M_Tavern_inside_candlestick_01_cell.013
+    400030: M_Tavern_inside_candlestick_01_cell.014
+    400032: M_Tavern_inside_candlestick_01_cell.015
+    400034: M_Tavern_inside_candlestick_01_cell.016
+    400036: M_Tavern_inside_candlestick_01_cell.017
+    2100000: MI_Tavern_Inside_CandLestick_01
+    2300000: M_Tavern_inside_candlestick_01_cell
+    2300002: M_Tavern_inside_candlestick_01_cell.001
+    2300004: M_Tavern_inside_candlestick_01_cell.002
+    2300006: M_Tavern_inside_candlestick_01_cell.003
+    2300008: M_Tavern_inside_candlestick_01_cell.004
+    2300010: M_Tavern_inside_candlestick_01_cell.005
+    2300012: M_Tavern_inside_candlestick_01_cell.006
+    2300014: M_Tavern_inside_candlestick_01_cell.007
+    2300016: M_Tavern_inside_candlestick_01_cell.008
+    2300018: M_Tavern_inside_candlestick_01_cell.009
+    2300020: M_Tavern_inside_candlestick_01_cell.010
+    2300022: M_Tavern_inside_candlestick_01_cell.011
+    2300024: M_Tavern_inside_candlestick_01_cell.012
+    2300026: M_Tavern_inside_candlestick_01_cell.013
+    2300028: M_Tavern_inside_candlestick_01_cell.014
+    2300030: M_Tavern_inside_candlestick_01_cell.015
+    2300032: M_Tavern_inside_candlestick_01_cell.016
+    2300034: M_Tavern_inside_candlestick_01_cell.017
+    3300000: M_Tavern_inside_candlestick_01_cell
+    3300002: M_Tavern_inside_candlestick_01_cell.001
+    3300004: M_Tavern_inside_candlestick_01_cell.002
+    3300006: M_Tavern_inside_candlestick_01_cell.003
+    3300008: M_Tavern_inside_candlestick_01_cell.004
+    3300010: M_Tavern_inside_candlestick_01_cell.005
+    3300012: M_Tavern_inside_candlestick_01_cell.006
+    3300014: M_Tavern_inside_candlestick_01_cell.007
+    3300016: M_Tavern_inside_candlestick_01_cell.008
+    3300018: M_Tavern_inside_candlestick_01_cell.009
+    3300020: M_Tavern_inside_candlestick_01_cell.010
+    3300022: M_Tavern_inside_candlestick_01_cell.011
+    3300024: M_Tavern_inside_candlestick_01_cell.012
+    3300026: M_Tavern_inside_candlestick_01_cell.013
+    3300028: M_Tavern_inside_candlestick_01_cell.014
+    3300030: M_Tavern_inside_candlestick_01_cell.015
+    3300032: M_Tavern_inside_candlestick_01_cell.016
+    3300034: M_Tavern_inside_candlestick_01_cell.017
+    4300000: M_Tavern_inside_candlestick_01_cell.017
+    4300002: M_Tavern_inside_candlestick_01_cell.016
+    4300004: M_Tavern_inside_candlestick_01_cell.015
+    4300006: M_Tavern_inside_candlestick_01_cell.014
+    4300008: M_Tavern_inside_candlestick_01_cell.013
+    4300010: M_Tavern_inside_candlestick_01_cell.012
+    4300012: M_Tavern_inside_candlestick_01_cell.011
+    4300014: M_Tavern_inside_candlestick_01_cell.010
+    4300016: M_Tavern_inside_candlestick_01_cell.009
+    4300018: M_Tavern_inside_candlestick_01_cell.008
+    4300020: M_Tavern_inside_candlestick_01_cell.007
+    4300022: M_Tavern_inside_candlestick_01_cell.006
+    4300024: M_Tavern_inside_candlestick_01_cell.005
+    4300026: M_Tavern_inside_candlestick_01_cell.004
+    4300028: M_Tavern_inside_candlestick_01_cell.003
+    4300030: M_Tavern_inside_candlestick_01_cell.002
+    4300032: M_Tavern_inside_candlestick_01_cell.001
+    4300034: M_Tavern_inside_candlestick_01_cell
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

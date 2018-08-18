@@ -1,15 +1,14 @@
 fileFormatVersion: 2
-guid: fe99a71bf5187e341a79eb456ad4fc59
+guid: cd0a27f40c1a26a4e91622ea59f0a300
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: 13 - Default
+    2100000: PM3D_stl
     2300000: //RootNode
     3300000: //RootNode
-    4300000: bench30N14
-    9500000: //RootNode
+    4300000: PM3D_stl
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -61,6 +60,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -85,7 +86,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

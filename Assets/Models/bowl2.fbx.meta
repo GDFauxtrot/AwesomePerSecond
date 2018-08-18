@@ -1,49 +1,56 @@
 fileFormatVersion: 2
-guid: b1692d0c2b2961c46b68ee7aeb5536ed
+guid: c29441b312386a348ab2a4b8b0ec2aed
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Feet_00_low
-    100004: Feet_support_01_low
-    100006: Feet_support_02_low
-    100008: Feet_support_02_low1
-    100010: Stool_back_05_low
-    100012: Stool_back_leather_04_low
-    100014: Stool_frame_03_low
-    100016: Stool_rivet_07_low
-    100018: Stool_seat_06_low
-    100020: transform1
-    100022: transform2
-    100024: transform3
-    100026: transform4
-    100028: transform5
-    100030: transform6
-    100032: transform7
-    100034: transform8
+    100002: Bowl_v04_low_cell
+    100004: Bowl_v04_low_cell.001
+    100006: Bowl_v04_low_cell.002
+    100008: Bowl_v04_low_cell.003
+    100010: Bowl_v04_low_cell.004
+    100012: Bowl_v04_low_cell.005
+    100014: Bowl_v04_low_cell.006
+    100016: Bowl_v04_low_cell.007
+    100018: Bowl_v04_low_cell.008
     400000: //RootNode
-    400002: Feet_00_low
-    400004: Feet_support_01_low
-    400006: Feet_support_02_low
-    400008: Feet_support_02_low1
-    400010: Stool_back_05_low
-    400012: Stool_back_leather_04_low
-    400014: Stool_frame_03_low
-    400016: Stool_rivet_07_low
-    400018: Stool_seat_06_low
-    400020: transform1
-    400022: transform2
-    400024: transform3
-    400026: transform4
-    400028: transform5
-    400030: transform6
-    400032: transform7
-    400034: transform8
-    2100000: Low
-    2300000: Feet_support_02_low1
-    3300000: Feet_support_02_low1
-    4300000: Feet_support_02_low1
-    9500000: //RootNode
+    400002: Bowl_v04_low_cell
+    400004: Bowl_v04_low_cell.001
+    400006: Bowl_v04_low_cell.002
+    400008: Bowl_v04_low_cell.003
+    400010: Bowl_v04_low_cell.004
+    400012: Bowl_v04_low_cell.005
+    400014: Bowl_v04_low_cell.006
+    400016: Bowl_v04_low_cell.007
+    400018: Bowl_v04_low_cell.008
+    2100000: phong2
+    2300000: Bowl_v04_low_cell
+    2300002: Bowl_v04_low_cell.001
+    2300004: Bowl_v04_low_cell.002
+    2300006: Bowl_v04_low_cell.003
+    2300008: Bowl_v04_low_cell.004
+    2300010: Bowl_v04_low_cell.005
+    2300012: Bowl_v04_low_cell.006
+    2300014: Bowl_v04_low_cell.007
+    2300016: Bowl_v04_low_cell.008
+    3300000: Bowl_v04_low_cell
+    3300002: Bowl_v04_low_cell.001
+    3300004: Bowl_v04_low_cell.002
+    3300006: Bowl_v04_low_cell.003
+    3300008: Bowl_v04_low_cell.004
+    3300010: Bowl_v04_low_cell.005
+    3300012: Bowl_v04_low_cell.006
+    3300014: Bowl_v04_low_cell.007
+    3300016: Bowl_v04_low_cell.008
+    4300000: Bowl_v04_low_cell.008
+    4300002: Bowl_v04_low_cell.007
+    4300004: Bowl_v04_low_cell.006
+    4300006: Bowl_v04_low_cell.005
+    4300008: Bowl_v04_low_cell.004
+    4300010: Bowl_v04_low_cell.003
+    4300012: Bowl_v04_low_cell.002
+    4300014: Bowl_v04_low_cell.001
+    4300016: Bowl_v04_low_cell
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -95,6 +102,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -119,7 +128,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
