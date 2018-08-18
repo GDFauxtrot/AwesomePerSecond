@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ca7142bd6ed380e43b7f624e857917c0
+guid: a3860a0a3c661e34994c187a16b546c9
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -15,7 +15,11 @@ ModelImporter:
     400006: group5_group8_polySurface144
     400008: group5_group8_polySurface19
     400010: group5_pCube3_group8
-    2100000: lambert4SG
+    2100000: birds_statue_pCube2_group5Mat
+    2100002: group5_group8_pCube17Mat
+    2100004: group5_group8_polySurface144Mat
+    2100006: group5_group8_polySurface19Mat
+    2100008: group5_pCube3_group8Mat
     2300000: birds_statue_pCube2_group5
     2300002: group5_group8_pCube17
     2300004: group5_group8_polySurface144
@@ -27,10 +31,10 @@ ModelImporter:
     3300006: group5_group8_polySurface19
     3300008: group5_pCube3_group8
     4300000: birds_statue_pCube2_group5
-    4300002: group5_pCube3_group8
-    4300004: group5_group8_pCube17
+    4300002: group5_group8_pCube17
+    4300004: group5_group8_polySurface144
     4300006: group5_group8_polySurface19
-    4300008: group5_group8_polySurface144
+    4300008: group5_pCube3_group8
   externalObjects: {}
   materials:
     importMaterials: 1
