@@ -2681,6 +2681,12 @@ MonoBehaviour:
   rb: {fileID: 38304258}
   sphere: {fileID: 38304259}
   drawDebug: 0
+  squash:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!54 &38304258
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -54829,7 +54835,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1014572509}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
   m_Name: 
