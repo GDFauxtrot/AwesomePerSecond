@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 822d9c629700c8047b2adff0c66804d7
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: sclpt_afr
+    100004: sclpt_afr_cell
+    100006: sclpt_afr_cell_001
+    100008: sclpt_afr_cell_002
+    100010: sclpt_afr_cell_003
+    100012: sclpt_afr_cell_004
+    100014: sclpt_afr_cell_005
+    100016: sclpt_afr_cell_006
+    100018: sclpt_afr_cell_007
+    100020: sclpt_afr_cell_008
+    100022: sclpt_afr_cell_009
+    100024: sclpt_afr_cell_010
+    100026: sclpt_afr_cell_011
+    100028: sclpt_afr_cell_012
+    100030: sclpt_afr_cell_013
+    100032: sclpt_afr_cell_014
+    100034: sclpt_afr_cell_015
+    100036: sclpt_afr_cell_016
+    100038: sclpt_afr_cell_017
+    100040: sclpt_afr_cell_018
+    100042: sclpt_afr_cell_019
+    100044: sclpt_afr_cell_020
+    100046: sclpt_afr_cell_021
+    400000: //RootNode
+    400002: sclpt_afr
+    400004: sclpt_afr_cell
+    400006: sclpt_afr_cell_001
+    400008: sclpt_afr_cell_002
+    400010: sclpt_afr_cell_003
+    400012: sclpt_afr_cell_004
+    400014: sclpt_afr_cell_005
+    400016: sclpt_afr_cell_006
+    400018: sclpt_afr_cell_007
+    400020: sclpt_afr_cell_008
+    400022: sclpt_afr_cell_009
+    400024: sclpt_afr_cell_010
+    400026: sclpt_afr_cell_011
+    400028: sclpt_afr_cell_012
+    400030: sclpt_afr_cell_013
+    400032: sclpt_afr_cell_014
+    400034: sclpt_afr_cell_015
+    400036: sclpt_afr_cell_016
+    400038: sclpt_afr_cell_017
+    400040: sclpt_afr_cell_018
+    400042: sclpt_afr_cell_019
+    400044: sclpt_afr_cell_020
+    400046: sclpt_afr_cell_021
+    2100000: sclpt_afr
+    2300000: sclpt_afr
+    2300002: sclpt_afr_cell
+    2300004: sclpt_afr_cell_001
+    2300006: sclpt_afr_cell_002
+    2300008: sclpt_afr_cell_003
+    2300010: sclpt_afr_cell_004
+    2300012: sclpt_afr_cell_005
+    2300014: sclpt_afr_cell_006
+    2300016: sclpt_afr_cell_007
+    2300018: sclpt_afr_cell_008
+    2300020: sclpt_afr_cell_009
+    2300022: sclpt_afr_cell_010
+    2300024: sclpt_afr_cell_011
+    2300026: sclpt_afr_cell_012
+    2300028: sclpt_afr_cell_013
+    2300030: sclpt_afr_cell_014
+    2300032: sclpt_afr_cell_015
+    2300034: sclpt_afr_cell_016
+    2300036: sclpt_afr_cell_017
+    2300038: sclpt_afr_cell_018
+    2300040: sclpt_afr_cell_019
+    2300042: sclpt_afr_cell_020
+    2300044: sclpt_afr_cell_021
+    3300000: sclpt_afr
+    3300002: sclpt_afr_cell
+    3300004: sclpt_afr_cell_001
+    3300006: sclpt_afr_cell_002
+    3300008: sclpt_afr_cell_003
+    3300010: sclpt_afr_cell_004
+    3300012: sclpt_afr_cell_005
+    3300014: sclpt_afr_cell_006
+    3300016: sclpt_afr_cell_007
+    3300018: sclpt_afr_cell_008
+    3300020: sclpt_afr_cell_009
+    3300022: sclpt_afr_cell_010
+    3300024: sclpt_afr_cell_011
+    3300026: sclpt_afr_cell_012
+    3300028: sclpt_afr_cell_013
+    3300030: sclpt_afr_cell_014
+    3300032: sclpt_afr_cell_015
+    3300034: sclpt_afr_cell_016
+    3300036: sclpt_afr_cell_017
+    3300038: sclpt_afr_cell_018
+    3300040: sclpt_afr_cell_019
+    3300042: sclpt_afr_cell_020
+    3300044: sclpt_afr_cell_021
+    4300000: sclpt_afr_cell_021
+    4300002: sclpt_afr_cell_020
+    4300004: sclpt_afr_cell_019
+    4300006: sclpt_afr_cell_018
+    4300008: sclpt_afr_cell_017
+    4300010: sclpt_afr_cell_016
+    4300012: sclpt_afr_cell_015
+    4300014: sclpt_afr_cell_014
+    4300016: sclpt_afr_cell_013
+    4300018: sclpt_afr_cell_012
+    4300020: sclpt_afr_cell_011
+    4300022: sclpt_afr_cell_010
+    4300024: sclpt_afr_cell_009
+    4300026: sclpt_afr_cell_008
+    4300028: sclpt_afr_cell_007
+    4300030: sclpt_afr_cell_006
+    4300032: sclpt_afr_cell_005
+    4300034: sclpt_afr_cell_004
+    4300036: sclpt_afr_cell_003
+    4300038: sclpt_afr_cell_002
+    4300040: sclpt_afr_cell_001
+    4300042: sclpt_afr_cell
+    4300044: sclpt_afr
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -83,6 +83,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particles: {fileID: 198146884522291044}
+  distorter: {fileID: 1801086149474862, guid: 1f447aa7a287d4d45916b5d6c0fc4730, type: 2}
 --- !u!198 &198146884522291044
 ParticleSystem:
   m_ObjectHideFlags: 1
