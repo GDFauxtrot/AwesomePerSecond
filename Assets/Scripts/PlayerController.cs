@@ -43,6 +43,9 @@ public class PlayerController : MonoBehaviour {
 
     Collider[] overlapCols; // using nonalloc
 
+	private Renderer rend;
+    private float previousYvelocity;
+    public AnimationCurve squash;
     void Awake() {
         rb.maxAngularVelocity = Mathf.Infinity; // BOI WE SPINNIN NOW
 
@@ -53,6 +56,9 @@ public class PlayerController : MonoBehaviour {
         RotateCameraToTarget();
 
         overlapCols = new Collider[8]; // Or however many we need
+
+        rend = GetComponent<Renderer>();
+        rend.material.shader = Shader.Find("Custom/VertexAnim");
     }
 
     void Update() {
@@ -171,10 +177,48 @@ public class PlayerController : MonoBehaviour {
         }
 
         #endregion
+
+        #region Material editing
+
+        // // finding terminal velocity
+        // Vector3 addedForce = forceForward * -moveInput.x * playerSpeed * (60*Time.deltaTime) +
+        //                     forceRight * moveInput.y * playerSpeed * (60*Time.deltaTime);
+        // float topVelocity = ((addedForce.magnitude / rb.drag) - 
+        //                         Time.fixedDeltaTime * addedForce.magnitude) / 
+        //                         rb.mass;
+
+        rend.material.SetFloat("_disc",(rb.velocity.magnitude/25));
+
+        Vector3 clampedVelocity= new Vector3 (clampNeg(rb.velocity.x),
+                                            clampNeg(rb.velocity.y),
+                                            clampNeg(rb.velocity.z));
+        rend.material.SetVector("_Speed",(rb.velocity));
+
+        if(previousYvelocity<=0 && rb.velocity.y>=0)
+            StartCoroutine(AnimateSquash(.5f));
+        #endregion
     }
 
+    private float clampNeg(float velocity)
+    {
+        return Mathf.Clamp(velocity,-10,10);
+    }
+    IEnumerator AnimateSquash(float duration)
+    {
+         float journey = 0f;
+        while (journey <= duration)
+        {
+            journey = journey + Time.deltaTime;
+            float percent = Mathf.Clamp01(journey / duration);
+            float curvePercent = squash.Evaluate(percent);
+            rend.material.SetFloat("_Squashing",curvePercent);
+            yield return null;
+
+        }
+    }   
     void LateUpdate() {
         RotateCameraToTarget();
+        previousYvelocity = rb.velocity.y;
     }
 
     void OnDrawGizmos() {
