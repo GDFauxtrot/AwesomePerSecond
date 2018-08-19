@@ -719,6 +719,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4623828669910096}
+  - component: {fileID: 114625251781594036}
   m_Layer: 0
   m_Name: trash
   m_TagString: Untagged
@@ -6602,6 +6603,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114625251781594036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1573461971011374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89cd2e10836ee14582accdeb271e23c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!114 &114656774689480336
 MonoBehaviour:
   m_ObjectHideFlags: 1

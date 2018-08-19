@@ -437,6 +437,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4390336328174164}
+  - component: {fileID: 114033915743723142}
   m_Layer: 0
   m_Name: cuboid
   m_TagString: Untagged
@@ -5239,3 +5240,15 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300082, guid: 2e073de908d16e7499eb107f85c63ff8, type: 3}
+--- !u!114 &114033915743723142
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1459136878849938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89cd2e10836ee14582accdeb271e23c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}

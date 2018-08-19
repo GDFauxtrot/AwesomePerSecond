@@ -119,6 +119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4216888168092562}
+  - component: {fileID: 114504500596701118}
   m_Layer: 0
   m_Name: candleholder
   m_TagString: Untagged
@@ -2017,6 +2018,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114504500596701118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1447982102239270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89cd2e10836ee14582accdeb271e23c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!114 &114540285198656474
 MonoBehaviour:
   m_ObjectHideFlags: 1

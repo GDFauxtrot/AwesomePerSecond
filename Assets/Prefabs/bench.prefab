@@ -159,6 +159,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4462465673126584}
+  - component: {fileID: 114157282572375550}
   m_Layer: 0
   m_Name: bench
   m_TagString: Untagged
@@ -2056,6 +2057,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114157282572375550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1442604576361768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89cd2e10836ee14582accdeb271e23c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!114 &114196027014207456
 MonoBehaviour:
   m_ObjectHideFlags: 1

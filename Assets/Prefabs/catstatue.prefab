@@ -119,6 +119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4667028301090702}
+  - component: {fileID: 114590764942324038}
   m_Layer: 0
   m_Name: catstatue
   m_TagString: Untagged
@@ -2956,6 +2957,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114590764942324038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1258174364232722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89cd2e10836ee14582accdeb271e23c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!114 &114592664641018920
 MonoBehaviour:
   m_ObjectHideFlags: 1

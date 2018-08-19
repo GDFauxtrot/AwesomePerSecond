@@ -53,6 +53,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4206646759047580}
+  - component: {fileID: 114771851580949778}
   m_Layer: 0
   m_Name: velvetrope
   m_TagString: Untagged
@@ -258,3 +259,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1426154043996906}
   m_Mesh: {fileID: 4300000, guid: b036dc4e1c44cdf4b9a7b42c80d9e7e6, type: 3}
+--- !u!114 &114771851580949778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1599845883671072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89cd2e10836ee14582accdeb271e23c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}

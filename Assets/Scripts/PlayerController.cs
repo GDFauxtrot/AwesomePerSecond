@@ -43,9 +43,12 @@ public class PlayerController : MonoBehaviour {
 
     Collider[] overlapCols; // using nonalloc
 
-	private Renderer rend;
+    private Renderer rend;
     private float previousYvelocity;
     public AnimationCurve squash;
+
+    public int smashCount;
+
     void Awake() {
         rb.maxAngularVelocity = Mathf.Infinity; // BOI WE SPINNIN NOW
 

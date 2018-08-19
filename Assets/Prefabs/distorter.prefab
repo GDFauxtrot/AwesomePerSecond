@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4890589058394092}
+  - component: {fileID: 114439721017763998}
   - component: {fileID: 33935663444886722}
   - component: {fileID: 23114800207410030}
   - component: {fileID: 114048703805433624}
@@ -99,3 +100,15 @@ MonoBehaviour:
   lifetime: 0.5
   intensity: 0.5
   rend: {fileID: 23114800207410030}
+--- !u!114 &114439721017763998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1801086149474862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89cd2e10836ee14582accdeb271e23c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
