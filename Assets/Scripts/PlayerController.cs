@@ -92,14 +92,14 @@ public class PlayerController : MonoBehaviour {
 
         // Apply rotation force to player
         rb.AddTorque(
-            forceForward * -moveInput.x * playerSpeed +
-            forceRight * moveInput.y * playerSpeed);
+            forceForward * -moveInput.x * playerSpeed * (60*Time.deltaTime) +
+            forceRight * moveInput.y * playerSpeed * (60*Time.deltaTime));
 
         // Air control
         if (!grounded) {
             rb.AddForce(
-                forceForward * moveInput.y * playerSpeed * airControlMultiplier +
-                forceRight * moveInput.x * playerSpeed * airControlMultiplier);
+                forceForward * moveInput.y * playerSpeed * airControlMultiplier * (60*Time.deltaTime) +
+                forceRight * moveInput.x * playerSpeed * airControlMultiplier * (60*Time.deltaTime));
         }
         
         // Jump impulse

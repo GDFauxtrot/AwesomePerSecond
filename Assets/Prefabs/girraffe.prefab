@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23711654626513644}
   - component: {fileID: 54400298679699308}
   - component: {fileID: 64806174815102178}
+  - component: {fileID: 114806554710113424}
   m_Layer: 0
   m_Name: giraffe_obj:zurafa_biblo_cell.002
   m_TagString: Untagged
@@ -42,6 +43,7 @@ GameObject:
   - component: {fileID: 23669678141445682}
   - component: {fileID: 54286207922735456}
   - component: {fileID: 64827518668005062}
+  - component: {fileID: 114076654090440130}
   m_Layer: 0
   m_Name: giraffe_obj:zurafa_biblo_cell
   m_TagString: Untagged
@@ -61,6 +63,7 @@ GameObject:
   - component: {fileID: 23849250541903736}
   - component: {fileID: 54699176608648912}
   - component: {fileID: 64085093316970180}
+  - component: {fileID: 114450585502740062}
   m_Layer: 0
   m_Name: giraffe_obj:zurafa_biblo_cell.003
   m_TagString: Untagged
@@ -80,6 +83,7 @@ GameObject:
   - component: {fileID: 23540045208288488}
   - component: {fileID: 54035141771421456}
   - component: {fileID: 64917031551278068}
+  - component: {fileID: 114504420065722002}
   m_Layer: 0
   m_Name: giraffe_obj:zurafa_biblo_cell.004
   m_TagString: Untagged
@@ -99,6 +103,7 @@ GameObject:
   - component: {fileID: 23785050890361778}
   - component: {fileID: 54464388531687576}
   - component: {fileID: 64292828239083892}
+  - component: {fileID: 114408052890538502}
   m_Layer: 0
   m_Name: giraffe_obj:zurafa_biblo_cell.011
   m_TagString: Untagged
@@ -118,6 +123,7 @@ GameObject:
   - component: {fileID: 23279048798977822}
   - component: {fileID: 54178743779728402}
   - component: {fileID: 64283980306216482}
+  - component: {fileID: 114080542419752854}
   m_Layer: 0
   m_Name: giraffe_obj:zurafa_biblo_cell.005
   m_TagString: Untagged
@@ -137,6 +143,7 @@ GameObject:
   - component: {fileID: 23897850565178816}
   - component: {fileID: 54790223398317038}
   - component: {fileID: 64468462106603816}
+  - component: {fileID: 114505788842838484}
   m_Layer: 0
   m_Name: giraffe_obj:zurafa_biblo_cell.006
   m_TagString: Untagged
@@ -156,6 +163,7 @@ GameObject:
   - component: {fileID: 23621233298154546}
   - component: {fileID: 54207781588877646}
   - component: {fileID: 64026287252278536}
+  - component: {fileID: 114143248569575326}
   m_Layer: 0
   m_Name: giraffe_obj:zurafa_biblo_cell.008
   m_TagString: Untagged
@@ -175,6 +183,7 @@ GameObject:
   - component: {fileID: 23403896580731692}
   - component: {fileID: 54711508768725106}
   - component: {fileID: 64141255345104014}
+  - component: {fileID: 114926924531821684}
   m_Layer: 0
   m_Name: giraffe_obj:zurafa_biblo_cell.010
   m_TagString: Untagged
@@ -194,6 +203,7 @@ GameObject:
   - component: {fileID: 23634207515845192}
   - component: {fileID: 54460160415223408}
   - component: {fileID: 64044013690673114}
+  - component: {fileID: 114388009505310330}
   m_Layer: 0
   m_Name: giraffe_obj:zurafa_biblo_cell.007
   m_TagString: Untagged
@@ -213,6 +223,7 @@ GameObject:
   - component: {fileID: 23008093488529228}
   - component: {fileID: 54999784485793396}
   - component: {fileID: 64005526530016388}
+  - component: {fileID: 114972569969440976}
   m_Layer: 0
   m_Name: giraffe_obj:zurafa_biblo_cell.013
   m_TagString: Untagged
@@ -247,6 +258,7 @@ GameObject:
   - component: {fileID: 23741986338399580}
   - component: {fileID: 54760108784450734}
   - component: {fileID: 64235018590358828}
+  - component: {fileID: 114476554618069464}
   m_Layer: 0
   m_Name: giraffe_obj:zurafa_biblo_cell.009
   m_TagString: Untagged
@@ -266,6 +278,7 @@ GameObject:
   - component: {fileID: 23826633222611414}
   - component: {fileID: 54043222478825308}
   - component: {fileID: 64444295260601452}
+  - component: {fileID: 114464990817844354}
   m_Layer: 0
   m_Name: giraffe_obj:zurafa_biblo_cell.012
   m_TagString: Untagged
@@ -285,6 +298,7 @@ GameObject:
   - component: {fileID: 23256664467330280}
   - component: {fileID: 54218236035754952}
   - component: {fileID: 64344928057667710}
+  - component: {fileID: 114503676162536624}
   m_Layer: 0
   m_Name: giraffe_obj:zurafa_biblo_cell.001
   m_TagString: Untagged
@@ -304,6 +318,7 @@ GameObject:
   - component: {fileID: 23063809265791894}
   - component: {fileID: 54734426397029068}
   - component: {fileID: 64296820594636982}
+  - component: {fileID: 114029134447348956}
   m_Layer: 0
   m_Name: giraffe_obj:zurafa_biblo_cell.014
   m_TagString: Untagged
@@ -1599,3 +1614,168 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300020, guid: 0394a18d6e09f0d43be7391946ab38b0, type: 3}
+--- !u!114 &114029134447348956
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1927543698326934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114076654090440130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1175232088657196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114080542419752854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454860915479780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114143248569575326
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1635020969603732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114388009505310330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1656399132405400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114408052890538502
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1408948502845770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114450585502740062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1319665942186768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114464990817844354
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1850568418913552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114476554618069464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1819438680925984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114503676162536624
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1911122423916908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114504420065722002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1397294811458280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114505788842838484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1482966266715136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114806554710113424
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069611416172266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114926924531821684
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1651399083470250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114972569969440976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1718072739782390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7605e222e54bd41ba4f70406b8eba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
