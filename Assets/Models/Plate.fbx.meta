@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: 700f8f7f1c9ca4840b4190f7883a1631
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Plate_cell
+    100004: Plate_cell.001
+    100006: Plate_cell.002
+    100008: Plate_cell.003
+    100010: Plate_cell.004
+    100012: Plate_cell.005
+    100014: Plate_cell.006
+    100016: Plate_cell.007
+    100018: Plate_cell.008
+    100020: Plate_cell.009
+    100022: Plate_cell.010
+    100024: Plate_cell.011
+    100026: Plate_cell.012
+    100028: Plate_cell.013
+    100030: Plate_cell.014
+    100032: Plate_cell.015
+    100034: Plate_cell.016
+    100036: Plate_cell.017
+    100038: Plate_cell.018
+    100040: Plate_cell.019
+    100042: Plate_cell.020
+    400000: //RootNode
+    400002: Plate_cell
+    400004: Plate_cell.001
+    400006: Plate_cell.002
+    400008: Plate_cell.003
+    400010: Plate_cell.004
+    400012: Plate_cell.005
+    400014: Plate_cell.006
+    400016: Plate_cell.007
+    400018: Plate_cell.008
+    400020: Plate_cell.009
+    400022: Plate_cell.010
+    400024: Plate_cell.011
+    400026: Plate_cell.012
+    400028: Plate_cell.013
+    400030: Plate_cell.014
+    400032: Plate_cell.015
+    400034: Plate_cell.016
+    400036: Plate_cell.017
+    400038: Plate_cell.018
+    400040: Plate_cell.019
+    400042: Plate_cell.020
+    2100000: Plate
+    2300000: Plate_cell
+    2300002: Plate_cell.001
+    2300004: Plate_cell.002
+    2300006: Plate_cell.003
+    2300008: Plate_cell.004
+    2300010: Plate_cell.005
+    2300012: Plate_cell.006
+    2300014: Plate_cell.007
+    2300016: Plate_cell.008
+    2300018: Plate_cell.009
+    2300020: Plate_cell.010
+    2300022: Plate_cell.011
+    2300024: Plate_cell.012
+    2300026: Plate_cell.013
+    2300028: Plate_cell.014
+    2300030: Plate_cell.015
+    2300032: Plate_cell.016
+    2300034: Plate_cell.017
+    2300036: Plate_cell.018
+    2300038: Plate_cell.019
+    2300040: Plate_cell.020
+    3300000: Plate_cell
+    3300002: Plate_cell.001
+    3300004: Plate_cell.002
+    3300006: Plate_cell.003
+    3300008: Plate_cell.004
+    3300010: Plate_cell.005
+    3300012: Plate_cell.006
+    3300014: Plate_cell.007
+    3300016: Plate_cell.008
+    3300018: Plate_cell.009
+    3300020: Plate_cell.010
+    3300022: Plate_cell.011
+    3300024: Plate_cell.012
+    3300026: Plate_cell.013
+    3300028: Plate_cell.014
+    3300030: Plate_cell.015
+    3300032: Plate_cell.016
+    3300034: Plate_cell.017
+    3300036: Plate_cell.018
+    3300038: Plate_cell.019
+    3300040: Plate_cell.020
+    4300000: Plate_cell.020
+    4300002: Plate_cell.019
+    4300004: Plate_cell.018
+    4300006: Plate_cell.017
+    4300008: Plate_cell.016
+    4300010: Plate_cell.015
+    4300012: Plate_cell.014
+    4300014: Plate_cell.013
+    4300016: Plate_cell.012
+    4300018: Plate_cell.011
+    4300020: Plate_cell.010
+    4300022: Plate_cell.009
+    4300024: Plate_cell.008
+    4300026: Plate_cell.007
+    4300028: Plate_cell.006
+    4300030: Plate_cell.005
+    4300032: Plate_cell.004
+    4300034: Plate_cell.003
+    4300036: Plate_cell.002
+    4300038: Plate_cell.001
+    4300040: Plate_cell
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
