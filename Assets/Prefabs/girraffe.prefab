@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 54400298679699308}
   - component: {fileID: 64806174815102178}
   - component: {fileID: 114806554710113424}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: giraffe_obj:zurafa_biblo_cell.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 54286207922735456}
   - component: {fileID: 64827518668005062}
   - component: {fileID: 114076654090440130}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: giraffe_obj:zurafa_biblo_cell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,7 +64,7 @@ GameObject:
   - component: {fileID: 54699176608648912}
   - component: {fileID: 64085093316970180}
   - component: {fileID: 114450585502740062}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: giraffe_obj:zurafa_biblo_cell.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,7 +84,7 @@ GameObject:
   - component: {fileID: 54035141771421456}
   - component: {fileID: 64917031551278068}
   - component: {fileID: 114504420065722002}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: giraffe_obj:zurafa_biblo_cell.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 54464388531687576}
   - component: {fileID: 64292828239083892}
   - component: {fileID: 114408052890538502}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: giraffe_obj:zurafa_biblo_cell.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 54178743779728402}
   - component: {fileID: 64283980306216482}
   - component: {fileID: 114080542419752854}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: giraffe_obj:zurafa_biblo_cell.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144,7 +144,7 @@ GameObject:
   - component: {fileID: 54790223398317038}
   - component: {fileID: 64468462106603816}
   - component: {fileID: 114505788842838484}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: giraffe_obj:zurafa_biblo_cell.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 54207781588877646}
   - component: {fileID: 64026287252278536}
   - component: {fileID: 114143248569575326}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: giraffe_obj:zurafa_biblo_cell.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,7 +184,7 @@ GameObject:
   - component: {fileID: 54711508768725106}
   - component: {fileID: 64141255345104014}
   - component: {fileID: 114926924531821684}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: giraffe_obj:zurafa_biblo_cell.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -204,7 +204,7 @@ GameObject:
   - component: {fileID: 54460160415223408}
   - component: {fileID: 64044013690673114}
   - component: {fileID: 114388009505310330}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: giraffe_obj:zurafa_biblo_cell.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 54999784485793396}
   - component: {fileID: 64005526530016388}
   - component: {fileID: 114972569969440976}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: giraffe_obj:zurafa_biblo_cell.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +259,7 @@ GameObject:
   - component: {fileID: 54760108784450734}
   - component: {fileID: 64235018590358828}
   - component: {fileID: 114476554618069464}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: giraffe_obj:zurafa_biblo_cell.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -279,7 +279,7 @@ GameObject:
   - component: {fileID: 54043222478825308}
   - component: {fileID: 64444295260601452}
   - component: {fileID: 114464990817844354}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: giraffe_obj:zurafa_biblo_cell.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -299,7 +299,7 @@ GameObject:
   - component: {fileID: 54218236035754952}
   - component: {fileID: 64344928057667710}
   - component: {fileID: 114503676162536624}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: giraffe_obj:zurafa_biblo_cell.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -319,7 +319,7 @@ GameObject:
   - component: {fileID: 54734426397029068}
   - component: {fileID: 64296820594636982}
   - component: {fileID: 114029134447348956}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: giraffe_obj:zurafa_biblo_cell.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -476,8 +476,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1740605680875284}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.9737864, y: 16.044472, z: 3.847331}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4241616644523156}
   - {fileID: 4700807837203112}

@@ -74,13 +74,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 556797029e73b2347956b6579e77e05b, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
   focusDistance:
     overrideState: 1
-    value: 6.15
+    value: 16
   aperture:
     overrideState: 1
     value: 11.5
@@ -179,10 +179,10 @@ MonoBehaviour:
     value: 50
   distanceFade:
     overrideState: 1
-    value: 0.564
+    value: 0
   vignette:
     overrideState: 1
-    value: 0.361
+    value: 0.3
 --- !u!114 &114951392284309214
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -203,7 +203,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.1
+    value: 0.25
   color:
     overrideState: 1
     value: {r: 0, g: 0, b: 0, a: 1}
@@ -221,7 +221,7 @@ MonoBehaviour:
     value: -12
   thicknessModifier:
     overrideState: 1
-    value: 1
+    value: 2.5
   directLightingStrength:
     overrideState: 0
     value: 0
@@ -1558,7 +1558,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 10
+    value: 5
   threshold:
     overrideState: 1
     value: 1
