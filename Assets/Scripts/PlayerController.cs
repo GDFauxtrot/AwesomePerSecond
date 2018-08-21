@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour {
 
@@ -35,10 +36,18 @@ public class PlayerController : MonoBehaviour {
     public GameObject groundPoundEffectPrefab;
     bool groundPounding;
 
+    [Header("Audio")]
+    public AudioClip ballRollingClip;
+    public List<AudioClip> clips;
+    public float rollVolume;
+    public float rollVolumeScale;
+
+    AudioSource rollSource;
+
     [Header("Misc")]
     public Rigidbody rb;
     public SphereCollider sphere;
-    
+
     public bool drawDebug;
 
     Collider[] overlapCols; // using nonalloc
@@ -62,9 +71,18 @@ public class PlayerController : MonoBehaviour {
 
         rend = GetComponent<Renderer>();
         rend.material.shader = Shader.Find("Custom/VertexAnim");
+
+        rollSource = gameObject.AddComponent<AudioSource>();
+        rollSource.clip = ballRollingClip;
+        rollSource.volume = rollVolume;
+        rollSource.loop = true;
+        rollSource.Play();
     }
 
     void Update() {
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
+
         // Gather inputs
         mouseInput = new Vector2(
             Input.GetAxisRaw("Mouse X") + Input.GetAxisRaw("Joy X"),
@@ -180,7 +198,14 @@ public class PlayerController : MonoBehaviour {
         }
 
         #endregion
+        #region BALL ROLLING AUDIO THINGO
 
+        float ourSpeed = rb.velocity.magnitude;
+        float ballVol = Mathf.Lerp(0, rollVolume, ourSpeed/rollVolumeScale);
+        rollSource.volume = ballVol;
+        rollSource.pitch = ourSpeed/rollVolumeScale * 1.5f;
+
+        #endregion
         #region Material editing
 
         // // finding terminal velocity
@@ -230,6 +255,11 @@ public class PlayerController : MonoBehaviour {
             Gizmos.color = new Color(1f, 0.5f, 0f, 1f);
             Gizmos.DrawWireSphere(transform.position, groundPoundRadius);
         }
+    }
+
+    void OnTriggerEnter(Collider col) {
+        if (col.gameObject.layer == LayerMask.NameToLayer("TriggerEnd"))
+            SceneManager.LoadScene("MainMenu");
     }
 
     /// <summary>

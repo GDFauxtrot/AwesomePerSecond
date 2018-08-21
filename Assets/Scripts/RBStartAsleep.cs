@@ -20,7 +20,7 @@ public class RBStartAsleep : MonoBehaviour {
     void Update() {
         if (!toldDad && !rb.IsSleeping()) {
             toldDad = true;
-            dad.GetComponent<SmashDad>().NotifySmashed();
+            dad.GetComponent<SmashDad>().NotifySmashed(rb.velocity.magnitude);
         }
     }
 }

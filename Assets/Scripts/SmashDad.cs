@@ -20,10 +20,13 @@ public class SmashDad : MonoBehaviour {
         
     }
 
-    public void NotifySmashed() {
+    public void NotifySmashed(float aForce) {
         if (!smashed) {
+            Debug.Log(aForce);
             smashed = true;
             player.GetComponent<PlayerController>().smashCount++;
+            List<AudioClip> clips = player.GetComponent<PlayerController>().clips;
+            AudioSource.PlayClipAtPoint(clips[Random.Range(0, clips.Count)], transform.position);
         }
     }
 }
